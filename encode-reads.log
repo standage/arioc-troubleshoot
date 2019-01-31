@@ -1,0 +1,16 @@
+153728398 [00005c8b] AriocE v1.30.2486.18361 (release)
+153728398 [00005c8b] Copyright (c) 2015-2018 Johns Hopkins University.  All rights reserved.
+153728398 [00005c8b]  data type sizes      : int=4 long=8 *=8 Jvalue5=5 Jvalue8=8 JtableHeader=5
+153728398 [00005c8b]  executable file      : /scratch/standage/arioc-human/bin/AriocE
+153728398 [00005c8b]  configuration file : /scratch/standage/arioc-human/config-encode-reads.xml
+153728399 [00005c8b] encodeQ: encoding 6 files (32 CPU threads available)...
+155208347 [00005c9f] summarizeReadLengthDistribution: /scratch/standage/arioc-human/seq/ERR2618717_2.fastq: 313816867 reads [150-150 mean (sd) 150.0 (0.0)]
+155245603 [00005c9a] summarizeReadLengthDistribution: /scratch/standage/arioc-human/seq/ERR2438054_1.fastq: 313983800 reads [150-150 mean (sd) 150.0 (0.0)]
+155306377 [00005c9b] summarizeReadLengthDistribution: /scratch/standage/arioc-human/seq/ERR2438054_2.fastq: 313983800 reads [150-150 mean (sd) 150.0 (0.0)]
+155309440 [00005c9d] summarizeReadLengthDistribution: /scratch/standage/arioc-human/seq/ERR2438055_2.fastq: 313716127 reads [150-150 mean (sd) 150.0 (0.0)]
+155310695 [00005c9c] summarizeReadLengthDistribution: /scratch/standage/arioc-human/seq/ERR2438055_1.fastq: 313716127 reads [150-150 mean (sd) 150.0 (0.0)]
+155316630 [00005c9e] summarizeReadLengthDistribution: /scratch/standage/arioc-human/seq/ERR2618717_1.fastq: 313816867 reads [150-150 mean (sd) 150.0 (0.0)]
+155316636 [00005c8b] encodeQ: encoded 6 files
+155316636 [00005c8b] validateQ: validating 6 files (32 CPU threads available)...
+155407174 [00005c8b] validateQ: validated 6 files
+155407174 [00005c8b] AriocE ends (0)

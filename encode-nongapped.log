@@ -1,0 +1,73 @@
+145049475 [00005227] AriocE v1.30.2486.18361 (release)
+145049475 [00005227] Copyright (c) 2015-2018 Johns Hopkins University.  All rights reserved.
+145049475 [00005227]  data type sizes      : int=4 long=8 *=8 Jvalue5=5 Jvalue8=8 JtableHeader=5
+145049475 [00005227]  executable file      : /scratch/standage/arioc-human/bin/AriocE
+145049475 [00005227]  configuration file : /scratch/standage/arioc-human/config-encode-nongapped.xml
+145049476 [00005227] encodeR: encoding 26 files (52 sequences) (32 CPU threads available)...
+145152275 [00005227] encodeR: encoded 26 files (52 sequences)
+145153318 [00005227] computeJlistSizes: before C list sort
+145429595 [00005227] computeJlistSizes: after C list sort
+145442799 [00005227] computeJlistSizes: m_nJ=5847667826 (211719035+5635948791) m_iCshort=1369739 m_iCzero=1066832105
+145442799 [00005227] computeJlistSizes: log2(nJ)  # J-lists
+145442799 [00005227] computeJlistSizes:        0   34180471
+145442799 [00005227] computeJlistSizes:        1  226568896
+145442799 [00005227] computeJlistSizes:        2  627998177
+145442799 [00005227] computeJlistSizes:        3  172909403
+145442799 [00005227] computeJlistSizes:        4    3805419
+145442799 [00005227] computeJlistSizes:        5     815608
+145442799 [00005227] computeJlistSizes:        6     287652
+145442799 [00005227] computeJlistSizes:        7     115295
+145442799 [00005227] computeJlistSizes:        8      68496
+145442799 [00005227] computeJlistSizes:        9      45830
+145442799 [00005227] computeJlistSizes:       10      25418
+145442799 [00005227] computeJlistSizes:       11       9061
+145442799 [00005227] computeJlistSizes:       12       2153
+145442799 [00005227] computeJlistSizes:       13        225
+145442799 [00005227] computeJlistSizes:       14          1
+145454843 [00005227] computeJlistSizes exits: J table uses 5849037565 elements for 5847667826 J values (0.023% for list counts in J lists)
+145455883 [00005227] buildJlists: building J lists for 26 files (52 sequences) (32 CPU threads available)...
+145750081 [00005227] buildJlists: built J lists for 26 files (52 sequences)
+145750082 [00005227] sortJcpu: sorting J lists on 32 worker threads...
+145900858 [00005227] sortJcpu: J list sort complete
+145907995 [00005227] countBBJ: counting big-bucket lists...
+145938174 [00005227] countBBJ: counted 134899 big-bucket lists
+145938175 [00005227] buildBBJlists: identifying J values in big-bucket lists...
+145942534 [00005227] sortBBHJ: sorting big-bucket lists...
+145945262 [00005227] sortBBHJ: sorted 126874910 big-bucket J values
+145945835 [00005227] identifyBBJ: big bucket region info: 38517750 regions (size 1-4507, avg=3.3 sd=23.9)
+150026802 [00005227] validateHJ...
+150057622 [00005227] validateHJ: H table uses 1066797858/1073741824 (99.353%) hash keys
+150057622 [00005227] validateHJ: J table contains 5729186235 J values (list counts in lists: 1293939 (0.023%))
+150057622 [00005227] validateHJ: maximum nJ=1794 for hash key 0x0408D6D9
+150057623 [00005227] validateHJ completed
+150057623 [00005227] validateSubIds...
+150104903 [00005227] validateSubIds: validated 1073741824 hash values
+150104903 [00005227] validateSubIds: # subIds  # hash keys  avg J-list size
+150104903 [00005227] validateSubIds:        0            0              0.0
+150104903 [00005227] validateSubIds:        1     39578001              1.3
+150104903 [00005227] validateSubIds:        2    107194611              2.3
+150104903 [00005227] validateSubIds:        3    183613934              3.5
+150104903 [00005227] validateSubIds:        4    223209447              4.6
+150104903 [00005227] validateSubIds:        5    205115803              5.8
+150104903 [00005227] validateSubIds:        6    148342129              7.0
+150104903 [00005227] validateSubIds:        7     86949993              8.2
+150104903 [00005227] validateSubIds:        8     42373734              9.4
+150104903 [00005227] validateSubIds:        9     17724620             10.6
+150104903 [00005227] validateSubIds:       10      6681926             12.1
+150104903 [00005227] validateSubIds:       11      2513102             14.0
+150104903 [00005227] validateSubIds:       12      1092429             16.7
+150104903 [00005227] validateSubIds:       13       605668             19.9
+150104903 [00005227] validateSubIds:       14       405800             23.4
+150104903 [00005227] validateSubIds:       15       300777             27.2
+150104903 [00005227] validateSubIds:       16       233451             31.6
+150104903 [00005227] validateSubIds:       17       187369             36.9
+150104903 [00005227] validateSubIds:       18       153433             43.4
+150104903 [00005227] validateSubIds:       19       128139             51.5
+150104903 [00005227] validateSubIds:       20       108295             62.6
+150104903 [00005227] validateSubIds:       21        92964             78.4
+150104903 [00005227] validateSubIds:       22        83698            104.5
+150104903 [00005227] validateSubIds:       23        79454            149.6
+150104903 [00005227] validateSubIds:       24        29073            192.1
+150104903 [00005227] validateSubIds:       25            8            132.1
+150104903 [00005227] validateSubIds completed
+150151981 [00005227] AriocE ends (0)

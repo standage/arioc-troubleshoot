@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AriocP verboseMask="0xE000031F" gpuMask="0x000F" batchSize="64k" maxDOP="32">
+    <R>/scratch/standage/arioc-human/refr-encoded</R>
+    <nongapped seed="ssi84_2_30" />
+    <gapped seed="hsi20_0_30" Wmxgs="2_6_5_3" Vt="100" />
+    <Q filePath="/scratch/standage/arioc-human/seq-encoded">
+        <paired subId="1">
+            <file>ERR2438054_1</file>
+            <file>ERR2438054_2</file>
+        </paired>
+        <paired subId="2">
+            <file>ERR2438055_1</file>
+            <file>ERR2438055_2</file>
+        </paired>
+        <paired subId="3">
+            <file>ERR2618717_1</file>
+            <file>ERR2618717_2</file>
+        </paired>
+    </Q>
+    <A pairOrientation="c" pairCollision="oc">
+        <sam report="mu">/scratch/standage/arioc-human/sams</sam>
+    </A>
+</AriocP>

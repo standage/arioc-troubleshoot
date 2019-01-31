@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AriocE seed="hsi20_0_30" maxDOP="32" maxJ="200">
+    <dataIn sequenceType="R" srcId="0" filePath="/scratch/standage/arioc-human/refr">
+        <file subId="1">GRCh38-chr1.fasta</file>
+        <file subId="2">GRCh38-chr2.fasta</file>
+        <file subId="3">GRCh38-chr3.fasta</file>
+        <file subId="4">GRCh38-chr4.fasta</file>
+        <file subId="5">GRCh38-chr5.fasta</file>
+        <file subId="6">GRCh38-chr6.fasta</file>
+        <file subId="7">GRCh38-chr7.fasta</file>
+        <file subId="8">GRCh38-chr8.fasta</file>
+        <file subId="9">GRCh38-chr9.fasta</file>
+        <file subId="10">GRCh38-chr10.fasta</file>
+        <file subId="11">GRCh38-chr11.fasta</file>
+        <file subId="12">GRCh38-chr12.fasta</file>
+        <file subId="13">GRCh38-chr13.fasta</file>
+        <file subId="14">GRCh38-chr14.fasta</file>
+        <file subId="15">GRCh38-chr15.fasta</file>
+        <file subId="16">GRCh38-chr16.fasta</file>
+        <file subId="17">GRCh38-chr17.fasta</file>
+        <file subId="18">GRCh38-chr18.fasta</file>
+        <file subId="19">GRCh38-chr19.fasta</file>
+        <file subId="20">GRCh38-chr20.fasta</file>
+        <file subId="21">GRCh38-chr21.fasta</file>
+        <file subId="22">GRCh38-chr22.fasta</file>
+        <file subId="23">GRCh38-chrX.fasta</file>
+        <file subId="24">GRCh38-chrY.fasta</file>
+        <file subId="25">GRCh38-chrM.fasta</file>
+        <file subId="26">GRCh38-chrEBV.fasta</file>
+    </dataIn>
+    <dataOut>
+        <path>/scratch/standage/arioc-human/refr-encoded</path>
+    </dataOut>
+</AriocE>

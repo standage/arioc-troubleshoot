@@ -1,0 +1,12 @@
+155528478 [00005daa] AriocP v1.30.2486.18361 (release)
+155528478 [00005daa] Copyright (c) 2015-2018 Johns Hopkins University.  All rights reserved.
+155528478 [00005daa]  data type sizes      : int=4 long=8 *=8 Jvalue5=5 Jvalue8=8 JtableHeader=5
+155528478 [00005daa]  executable file      : /scratch/standage/arioc-human/bin/AriocP
+155528478 [00005daa]  configuration file   : /scratch/standage/arioc-human/config-align-reads.xml
+155528479 [00005daa] WinGlobalPtr allocated 16408 bytes at 0x00000000015d5060
+155528479 [00005daa] WinGlobalPtr allocated 0 bytes at 0x00000000015d00f0
+155528479 [00005daa] WinGlobalPtr allocated 640 bytes at 0x00000000015d9080
+155528479 [00005daa] WinGlobalPtr freed 640 bytes at 0x00000000015d9080
+155528479 [00005daa] WinGlobalPtr freed 16408 bytes at 0x00000000015d5060
+155528479 [00005daa] ApplicationException ([0x00023978] CppCommon/WinGlobalPtr.h 134): realloc failed to allocate 0 bytes
+155528479 [00005daa] AriocP ends (1)
